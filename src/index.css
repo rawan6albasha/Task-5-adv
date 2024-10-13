@@ -1,0 +1,13 @@
+:root{
+  --gray:#6C6C6C;
+  --orange:#FEAF00;
+  --border-color:#E5E5E5;
+  --light-orange:#F8D442;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat ,sans-serif;
+}

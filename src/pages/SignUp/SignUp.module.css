@@ -1,0 +1,91 @@
+.sign_body{
+    /* height: 100%; */
+    /* width: 100%; */
+    min-height: 100vh;
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+
+    
+}
+.flex_input{
+    display: flex;
+    gap: 24.05px;
+}
+.flex_input input{
+    width: 46.19% !important;
+}
+.upload{
+    width: 100px !important;
+    height:100px !important;
+}
+#file-upload-button{
+    background-color: aqua;
+}
+.SignIn{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 33.056%;
+    padding: 42px 21.04px 20px 21.04px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 2px 5px 10px #0000001A;
+}
+.SignIn .input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.SignIn .input input{ 
+    border: 1px solid var(--border-color); border-radius:4px ;
+     -webkit-border-radius:4px ;
+      -moz-border-radius:4px ;
+       -ms-border-radius:4px ;
+        -o-border-radius:4px ;
+        padding: 15px 15px 14px 15.03px;
+        font-size: 12px;
+        font-weight: 400;
+}
+.SignIn .submit{
+width: 100%;
+border: none;
+background-color: var(--orange);
+color: white;
+margin-top: 10px;
+padding:13px 0;
+font-size: 14px;
+font-weight: 500px;
+}
+.SignIn  input{ 
+height: 44px;
+width: 100%;
+}
+.SignIn label{
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray);
+}
+.SignIn form{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 27px;
+}
+.SignIn p{
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.SignIn p a{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--light-orange);
+}

@@ -1,0 +1,80 @@
+.upload_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+  }
+  .uploaded_image_edit{
+    width: fit-content !important;
+  }
+  .custom_file_upload_edit{
+    text-align: center !important;
+    width: 547px !important;
+    height: 209px !important;
+
+  }
+  .uploaded_icon_edit {
+    width: 120px;
+    height: 108px;
+  }
+  .custom_file_upload {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px dashed #384EB74D;
+
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+  
+  .uploaded_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .upload_icon {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #F8F8FF;
+    
+    
+  }
+  
+  .upload_icon_overlay {
+    position: absolute;
+    width:40px ;
+    height:36px ;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* opacity: 0; */
+    transition: opacity 0.3s ease;
+    z-index: 10;
+  }
+  
+  .custom_file_upload:hover .upload_icon_overlay {
+    opacity: 1;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  .file_btn{
+    display: none;
+  }
+  
